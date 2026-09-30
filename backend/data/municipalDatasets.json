@@ -1,0 +1,121 @@
+{
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "metadata": {
+    "source": "CivicAI Municipal Reference Dataset (Public Civic Geospatial Baseline)",
+    "lastUpdated": "2026-03-01",
+    "dataType": "MUNICIPAL_PUBLIC_INFRASTRUCTURE"
+  },
+  "wards": [
+    {
+      "wardId": "WARD-04",
+      "name": "Ward 4 - Anna Nagar West",
+      "zone": "Zone 8",
+      "district": "Chennai Central",
+      "coordinates": { "lat": 13.0850, "lng": 80.2101 },
+      "population": 52400,
+      "densityPerSqKm": 14200,
+      "waterNetworkStatus": "Stable",
+      "drainageCoveragePct": 88,
+      "vulnerabilityIndex": 28,
+      "facilities": { "hospitals": 3, "schools": 8, "substations": 2 }
+    },
+    {
+      "wardId": "WARD-07",
+      "name": "Ward 7 - T. Nagar Commercial Corridor",
+      "zone": "Zone 10",
+      "district": "Chennai Central",
+      "coordinates": { "lat": 13.0418, "lng": 80.2341 },
+      "population": 68900,
+      "densityPerSqKm": 21500,
+      "waterNetworkStatus": "Moderate Pressure",
+      "drainageCoveragePct": 74,
+      "vulnerabilityIndex": 64,
+      "facilities": { "hospitals": 6, "schools": 11, "substations": 4 }
+    },
+    {
+      "wardId": "WARD-12",
+      "name": "Ward 12 - Mylapore Cultural District",
+      "zone": "Zone 9",
+      "district": "Chennai South",
+      "coordinates": { "lat": 13.0336, "lng": 80.2687 },
+      "population": 47300,
+      "densityPerSqKm": 16800,
+      "waterNetworkStatus": "Aging Infrastructure",
+      "drainageCoveragePct": 69,
+      "vulnerabilityIndex": 58,
+      "facilities": { "hospitals": 4, "schools": 9, "substations": 3 }
+    },
+    {
+      "wardId": "WARD-15",
+      "name": "Ward 15 - Adyar Coastal Estuary",
+      "zone": "Zone 13",
+      "district": "Chennai South",
+      "coordinates": { "lat": 13.0067, "lng": 80.2571 },
+      "population": 41200,
+      "densityPerSqKm": 11400,
+      "waterNetworkStatus": "Periodic Maintenance",
+      "drainageCoveragePct": 82,
+      "vulnerabilityIndex": 42,
+      "facilities": { "hospitals": 5, "schools": 12, "substations": 3 }
+    },
+    {
+      "wardId": "WARD-18",
+      "name": "Ward 18 - Velachery Flood Basin",
+      "zone": "Zone 14",
+      "district": "Chennai South",
+      "coordinates": { "lat": 12.9815, "lng": 80.2180 },
+      "population": 78500,
+      "densityPerSqKm": 18900,
+      "waterNetworkStatus": "High Stress",
+      "drainageCoveragePct": 61,
+      "vulnerabilityIndex": 79,
+      "facilities": { "hospitals": 3, "schools": 7, "substations": 3 }
+    },
+    {
+      "wardId": "WARD-22",
+      "name": "Ward 22 - Tambaram Gateway",
+      "zone": "Zone 15",
+      "district": "Chennai South",
+      "coordinates": { "lat": 12.9249, "lng": 80.1275 },
+      "population": 63100,
+      "densityPerSqKm": 13700,
+      "waterNetworkStatus": "Under Expansion",
+      "drainageCoveragePct": 56,
+      "vulnerabilityIndex": 71,
+      "facilities": { "hospitals": 4, "schools": 8, "substations": 2 }
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEPT-WATER",
+      "name": "Water Supply & Sewerage Board",
+      "slaHours": 24,
+      "escalationContact": "cmwssb-escalation@civicai.gov.in"
+    },
+    {
+      "id": "DEPT-ROADS",
+      "name": "Roads & Infrastructure Department",
+      "slaHours": 48,
+      "escalationContact": "roads-escalation@civicai.gov.in"
+    },
+    {
+      "id": "DEPT-LIGHT",
+      "name": "Electrical & Public Lighting",
+      "slaHours": 24,
+      "escalationContact": "lighting-escalation@civicai.gov.in"
+    },
+    {
+      "id": "DEPT-SWM",
+      "name": "Solid Waste Management & Sanitation",
+      "slaHours": 12,
+      "escalationContact": "sanitation-escalation@civicai.gov.in"
+    },
+    {
+      "id": "DEPT-HEALTH",
+      "name": "Public Health & Family Welfare",
+      "slaHours": 18,
+      "escalationContact": "health-escalation@civicai.gov.in"
+    }
+  ]
+}
